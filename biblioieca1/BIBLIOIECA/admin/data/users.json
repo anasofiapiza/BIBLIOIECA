@@ -1,0 +1,26 @@
+[
+    {
+        "id": "user001",
+        "name": "María González",
+        "email": "maria.gonzalez@email.com",
+        "phone": "+34 612 345 678",
+        "address": "Calle Mayor 123, Madrid",
+        "registration_date": "2024-01-15"
+    },
+    {
+        "id": "user002",
+        "name": "Juan Pérez",
+        "email": "juan.perez@email.com",
+        "phone": "+34 698 765 432",
+        "address": "Avenida Libertad 45, Barcelona",
+        "registration_date": "2024-03-20"
+    },
+    {
+        "id": "user003",
+        "name": "Ana Martínez",
+        "email": "ana.martinez@email.com",
+        "phone": "+34 677 123 456",
+        "address": "Plaza España 10, Valencia",
+        "registration_date": "2024-06-10"
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "id": "book001",
+        "title": "Cien a\u00f1os de soledad",
+        "author": "Gabriel Garc\u00eda M\u00e1rquez",
+        "isbn": "978-0307474728",
+        "category": "Ficci\u00f3n",
+        "available": false
+    },
+    {
+        "id": "book002",
+        "title": "1984",
+        "author": "George Orwell",
+        "isbn": "978-0451524935",
+        "category": "Ficci\u00f3n",
+        "available": true
+    },
+    {
+        "id": "book003",
+        "title": "Sapiens: De animales a dioses",
+        "author": "Yuval Noah Harari",
+        "isbn": "978-0062316097",
+        "category": "Historia",
+        "available": true
+    },
+    {
+        "id": "book004",
+        "title": "El origen de las especies",
+        "author": "Charles Darwin",
+        "isbn": "978-8420689074",
+        "category": "Ciencia",
+        "available": true
+    },
+    {
+        "id": "book005",
+        "title": "Clean Code",
+        "author": "Robert C. Martin",
+        "isbn": "978-0132350884",
+        "category": "Tecnolog\u00eda",
+        "available": false
+    },
+    {
+        "id": "book006",
+        "title": "El arte de la guerra",
+        "author": "Sun Tzu",
+        "isbn": "978-1590302255",
+        "category": "Historia",
+        "available": true
+    }
+]

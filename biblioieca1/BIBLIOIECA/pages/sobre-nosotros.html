@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BIBLIOIECA - Sobre Nosotros</title>
+        <link rel="stylesheet" href="../css/sobre-nosotros.css">
+        <link rel="shortcut icon" href="../imgs/ieca.jpg">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="../imgs/ieca.jpg" alt="Logo Biblioteca">
+                    <h1>BIBLIOIECA</h1>
+                </div>
+                <ul>
+                    <li><a href="index.php" class="active">Inicio</a></li>
+                    <li><a href="libros.html">Libros</a></li>
+                    <li class="dropdown">
+                        <a href="#">Sobre Nosotros</a>
+                    </li>
+                    <li class="user-menu">
+                        <div class="user-icon" id="userIcon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor"
+                                class="bi bi-person-circle" viewBox="0 0 16 16">
+                                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                                <path fill-rule="evenodd"
+                                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
+                            </svg>
+                        </div>
+                        <ul class="dropdown" id="dropdownMenu">
+                            <li><a href="../php/login.php" id="loginBtn">Iniciar sesión</a></li>
+                            <li><a href="#" id="logoutBtn" style="display:none;">Cerrar sesión</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero about-hero">
+                <h2>Sobre Nosotros</h2>
+                <p>Conoce más sobre BIBLIOIECA y el equipo detrás de ella.</p>
+            </section>
+
+            <section class="info-grid-container">
+                <div class="info-box">
+                    <h3>Nuestra historia</h3>
+                    <p>BIBLIOIECA nació en 2024 como respuesta a una necesidad observada en nuestra institución, muchos
+                        estudiantes no podían acceder fácilmente a la biblioteca física por dificultades en el
+                        desplazamiento y el uso del espacio.</p>
+                </div>
+                <div class="info-box">
+                    <h3>Misión</h3>
+                    <p>Con BIBLIOIECA, buscamos que la lectura y el conocimiento sean más accesibles para todos los
+                        estudiantes. Es una herramienta que creamos pensando en ellos, para que el hábito de leer sea algo
+                        fácil y que disfruten.</p>
+                </div>
+                <div class="info-box">
+                    <h3>Visión</h3>
+                    <p>Nos imaginamos que BIBLIOIECA crecerá y se convertirá en un ejemplo. Queremos que inspire a otros
+                        jóvenes de nuestro colegio a usar sus ideas para desarrollar soluciones creativas y útiles desde su
+                        propio entorno.</p>
+                </div>
+                <div class="info-box">
+                    <h3>¿Quiénes Somos?</h3>
+                    <p>Nosotras somos un equipo de media técnica con habilidades en desarrollo de software. Usamos nuestras
+                        capacidades para crear herramientas que fomenten el aprendizaje y la pasión por la lectura, tal como
+                        lo hicimos con nuestro proyecto BIBLIOIECA.</p>
+                </div>
+            </section>
+
+            <section class="about-section">
+                <h2>Nuestro Equipo</h2>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <img src="../imgs/isabella.jpg" alt="Isabella Argel">
+                        <h3>Isabella Argel Naranjo</h3>
+                    </div>
+                    <div class="team-member">
+                        <img src="../imgs/maria.jpg" alt="Maria Hernández">
+                        <h3>Maria Isabel Hernández Zapata</h3>
+                    </div>
+                    <div class="team-member">
+                        <img src="../imgs/lauren.jpg" alt="Lauren Hernández">
+                        <h3>Lauren Sofía Hernández Zapata</h3>
+                    </div>
+                    <div class="team-member">
+                        <img src="../imgs/sofia.jpg" alt="Ana Sofia Piza">
+                        <h3>Ana Sofía Piza Muñoz</h3>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script src="../js/sobre-nosotros.js"></script>
+    </body>
+</html>
